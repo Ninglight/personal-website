@@ -1,9 +1,9 @@
 .header {
-    background-color: var(--header-background-color);
+    /*background-color: var(--header-background-color);*/
     height: 50px;
     position: sticky;
     top: 0;
-    backdrop-filter: saturate(180%) blur(20px);
+    /*backdrop-filter: saturate(180%) blur(20px);*/
     display: flex;
     align-items: center;
     justify-content: flex-start;    

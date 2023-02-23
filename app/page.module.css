@@ -1,17 +1,3 @@
-.main {
-  position: relative
-}
-
-.background {
-  position: absolute;
-  min-width: 100vw;
-  min-height: 100vh;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: #191B1F;
-}
-
 .cover {
   display: flex;
   align-items: center;

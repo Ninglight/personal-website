@@ -30,11 +30,9 @@ body {
   max-width: var(--max-width);
   margin: 0 auto;
 }
-
-
 /* Tablet */
 @media (max-width: 1023px) {
-  body {
+  .container {
     padding-left: 32px;
     padding-right: 32px;
   }

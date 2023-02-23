@@ -1,5 +1,6 @@
 import { AnalyticsWrapper } from './components/analytics/analytics.component'
-import { Header } from './components/header/header.component'
+import { BackgroundComponent } from './components/background/background.component'
+import { HeaderComponent } from './components/header/header.component'
 import './globals.css'
 
 export default function RootLayout({
@@ -15,9 +16,11 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <Header />
-        {children}
-        <AnalyticsWrapper />
+        <BackgroundComponent>
+          <HeaderComponent />
+          {children}
+          <AnalyticsWrapper />
+        </BackgroundComponent>
       </body>
     </html>
   )

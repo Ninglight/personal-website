@@ -2,7 +2,7 @@ import Image from 'next/image';
 import valentinbourreau from '../../../public/valentinbourreau.svg';
 import styles from './header.module.css';
 
-export const Header = () => {
+export const HeaderComponent = () => {
     return <header className={styles.header}>
         <div className="container">
             <div className={styles.logo}>
