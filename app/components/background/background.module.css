@@ -27,6 +27,7 @@
     height: 100%;
     z-index: 1;
     background: url('/grid.svg');
+    background-position: center center;
 }
 
 .background::after {

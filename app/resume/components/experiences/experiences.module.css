@@ -1,5 +1,4 @@
 .grid {
-    padding-top: 26px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -13,6 +12,15 @@
     "fourth fourth fifth fifth sixth sixth"
     "fourth fourth fifth fifth sixth sixth"
     "fourth fourth fifth fifth sixth sixth";
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: unset;
+        grid-template-areas: unset;
+    } 
 }
 
 .grid > *:nth-child(1) {
@@ -32,4 +40,11 @@
 }
 .grid > *:nth-child(6) {
     grid-area: sixth;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .grid > * {
+        grid-area: unset !important;
+    } 
 }
